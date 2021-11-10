@@ -1,0 +1,62 @@
+Arguments: 
+  D:\download\node\node.exe C:\Users\yiming.zhao\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add antd-ui
+
+PATH: 
+  D:\download\git\Git\mingw64\bin;D:\download\git\Git\usr\bin;C:\Users\yiming.zhao\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;D:\download\node;D:\download\git\Git\cmd;C:\Users\yiming.zhao\AppData\Local\Microsoft\WindowsApps;C:\Users\yiming.zhao\AppData\Roaming\npm;D:\download\vscode\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: http://npm.amh-group.com/css-animation/-/css-animation-1.2.6.tgz: Request failed "500 Internal Server Error"
+      at ResponseError.ExtendableBuiltin (C:\Users\yiming.zhao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\yiming.zhao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\yiming.zhao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67058:16)
+      at Request.emit (events.js:376:20)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\yiming.zhao\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141539:10)
+      at ClientRequest.emit (events.js:376:20)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:647:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+      at HTTPParser.execute (<anonymous>)
+      at Socket.socketOnData (_http_client.js:515:22)
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.4.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0",
+      "wangeditor": "^4.7.9"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.4.3",
+      "roadhog": "^2.5.0-beta.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

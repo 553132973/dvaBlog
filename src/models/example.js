@@ -1,3 +1,5 @@
+import { query } from "../services/example";
+
 export default {
   namespace: "example",
 
@@ -13,7 +15,7 @@ export default {
 
   effects: {
     *fetch({ payload }, { call, put }) {
-      console.log(payload);
+      query();
       yield put({ type: "save" });
     },
   },
